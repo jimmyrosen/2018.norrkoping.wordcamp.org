@@ -136,7 +136,8 @@ body:not(.home) .site-header:before {
 }
 
 .home .site-header h1.site-title a,
-.site-header h2.site-description {
+.site-header h2.site-description,
+.site-header .skip-link {
     display: none;
 }
 
