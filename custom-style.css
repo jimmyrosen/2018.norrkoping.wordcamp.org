@@ -123,7 +123,7 @@ body:not(.home) .site-header:before {
 }
 
 .site-header h1.site-title a {
-    background: url( child-images/wc-logo-black.png ) no-repeat center;
+    background: url( https://2016.stockholm.wordcamp.org/files/2016/08/wc-logo-black.png ) no-repeat center;
     background-size: 100% auto;
     display: block;
         -ms-flex: 1 0 16.3rem;
@@ -167,7 +167,7 @@ body:not(.home) .site-header:before {
     }
     
     .site-navigation .menu > li.menu-item-has-children:after {
-        background: url( child-images/children-arrow.png ) no-repeat center;
+        background: url( https://2016.stockholm.wordcamp.org/files/2016/08/children-arrow.png ) no-repeat center;
         background-size: auto 100%;
         content: "";
         display: block;
@@ -179,7 +179,7 @@ body:not(.home) .site-header:before {
     }
     
     .home .site-navigation .menu > li.menu-item-has-children:after {
-        background-image: url( child-images/children-arrow-white.png );
+        background-image: url( https://2016.stockholm.wordcamp.org/files/2016/08/children-arrow-white.png );
     }
 
     .site-navigation .menu > li > a {
@@ -250,7 +250,7 @@ body:not(.home) .site-header:before {
     }
     
     body .site-navigation .twitter-link a {
-        background: url( child-images/bird-black.png ) no-repeat center;
+        background: url( https://2016.stockholm.wordcamp.org/files/2016/08/bird-black.png ) no-repeat center;
         background-size: auto 100%;
         display: block;
         height: 2.5rem;
@@ -338,7 +338,7 @@ body:not(.home) .site-header:before {
 }
 
 .hero .intro-arrow {
-    background: url( child-images/intro-arrow.png ) no-repeat center;
+    background: url( https://2016.stockholm.wordcamp.org/files/2016/08/intro-arrow.png ) no-repeat center;
     background-size: 3.2rem auto;
     display: block;
     height: 3.8rem;
@@ -1374,7 +1374,7 @@ body .site-navigation .twitter-link a {
     }
 
     header nav.site-navigation > h1 {
-        background: url( child-images/hamburger.png ) no-repeat center;
+        background: url( https://2016.stockholm.wordcamp.org/files/2016/08/hamburger.png ) no-repeat center;
         background-size: 100% auto;
         clip: auto !important;
         cursor: pointer;
@@ -1387,12 +1387,12 @@ body .site-navigation .twitter-link a {
     }
 
     body:not(.home) header nav.site-navigation > h1 {
-        background-image: url( child-images/hamburger-black.png );
+        background-image: url( https://2016.stockholm.wordcamp.org/files/2016/08/hamburger-black.png );
     }
 
     header nav.site-navigation > h1.toggled-on,
     body:not(.home) header nav.site-navigation > h1.toggled-on {
-        background-image: url( child-images/hamburger-close.png );
+        background-image: url( https://2016.stockholm.wordcamp.org/files/2016/08/hamburger-close.png );
         height: 2.4rem;
         width: 2.4rem;
     }
