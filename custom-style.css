@@ -1649,24 +1649,30 @@ body .site-navigation .twitter-link a {
 
 /* iPad */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.hero:before,
 	.hero { height: 76.8rem; }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.hero:before,
 	.hero { height: 102.4rem; }
 }
 
 /* iPhone 5 */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+	.hero:before,
 	.hero { height: 32rem; }
 }
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+	.hero:before,
 	.hero { height: 56.8rem; }
 }
 
 /* iPhone 4 */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+	.hero:before,
 	.hero { height: 32rem; }
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	.hero:before,
 	.hero { height: 48rem; }
 }
