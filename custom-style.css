@@ -307,6 +307,7 @@ body:not(.home) .site-header:before {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
     justify-content: center;
+    position: relative;
 }
 
 .hero:before {
