@@ -154,6 +154,7 @@ body:not(.home) .site-header:before {
     .site-navigation {
         padding-right: 6rem;
         position: relative;
+        width: 100%;
     }
 
     .home .site-navigation .menu {
