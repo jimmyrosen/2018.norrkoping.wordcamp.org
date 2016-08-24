@@ -421,6 +421,10 @@ body a.shortcut {
     width: 33.33%;
 }
 
+body a.shortcut:nth-child(1) { background-image: url( https://2016.stockholm.wordcamp.org/files/2016/08/speakers-shortcut.jpg ); }
+body a.shortcut:nth-child(2) { background-image: url( https://2016.stockholm.wordcamp.org/files/2016/08/sponsors-shortcut.jpg ); }
+body a.shortcut:nth-child(3) { background-image: url( https://2016.stockholm.wordcamp.org/files/2016/08/tickets-shortcut.jpg ); }
+
 .shortcut:before {
     background: rgba( 0, 0, 0, 0.5 );
     content: "";
