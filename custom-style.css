@@ -1644,3 +1644,29 @@ body .site-navigation .twitter-link a {
 
 
 }
+
+/* UGLY HACK TO MAKE 100VH BEHAVE PROPERLY ON IOS */
+
+/* iPad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.hero { height: 76.8rem; }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.hero { height: 102.4rem; }
+}
+
+/* iPhone 5 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+	.hero { height: 32rem; }
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+	.hero { height: 56.8rem; }
+}
+
+/* iPhone 4 */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+	.hero { height: 32rem; }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	.hero { height: 48rem; }
+}
