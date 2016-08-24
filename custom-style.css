@@ -1227,6 +1227,19 @@ body .site-navigation .twitter-link a {
 /* RESPONSIVE */
 
 
+@media ( max-width: 900px ) and ( min-width: 600px ) {
+    
+    .site-navigation {
+        padding-right: 0;
+    }
+
+    .site-navigation .menu > li + li {
+        margin-left: 3rem;
+    }
+
+}
+
+
 @media ( max-width: 900px ) {
 
 
@@ -1239,18 +1252,6 @@ body .site-navigation .twitter-link a {
     }
     
     /* NAVIGATION */
-    
-    @media ( min-width: 600px ) {
-    
-        .site-navigation {
-            padding-right: 0;
-        }
-
-        .site-navigation .menu > li + li {
-            margin-left: 3rem;
-        }
-    
-    }
     
     body .site-navigation .twitter-link {
         display: none;
