@@ -1,3 +1,7 @@
+html {
+    font-size: 62.5%;
+}
+
 body > div {
     color: rgba( 17, 17, 17, 1 );
     font-family: 'freight-display-pro', 'Playfair Display', serif;
