@@ -474,7 +474,7 @@ body .wcpt_widget_speakers {
     display: flex;
         -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin: 0 0 0 0;
+    margin: 0 0 -4rem 0;
     position: relative;
         left: calc( 50% - 45vw - 3rem );
     width: calc( 90vw + 3rem );
@@ -484,9 +484,9 @@ body .wcpt_widget_speakers {
         -ms-flex: 1 0 calc( 25% - 3rem );
         -webkit-flex: 1 0 calc( 25% - 3rem );
     flex: 1 0 calc( 25% - 3rem );
-    margin: 0 0 3rem 3rem;
+    margin: 0 0 4rem 3rem;
     max-width: calc( 25% - 3rem );
-    padding-top: 10rem;
+    padding-top: 9.5rem;
     position: relative;
     text-align: center;
 }
@@ -502,20 +502,24 @@ body .wcpt_widget_speakers {
 
 .wcorg-speaker h2 {
     display: block;
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     font-weight: 700;
     line-height: 1;
     margin: 0;
 }
 
 .wcorg-speaker h3 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 400;
-    margin: 0 0 0 0;
+    margin: 0.5rem 0 0 0;
 }
 
 .wcorg-speaker p {
-    margin-top: 1rem;
+    font-family: 'freight-sans-pro';
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 1rem 0 0 0;
+    text-transform: uppercase;
 }
 
 
@@ -1336,13 +1340,20 @@ body .site-navigation .twitter-link a {
     
     
     /* SPEAKERS */
+    
+    .wcorg-speakers {
+        margin: 0 0 -2rem -1rem;
+        position: relative;
+            left: calc( 50% - 45vw - 1rem );
+        width: calc( 90vw + 1rem );
+    }
 
     .wcorg-speaker {
-            -ms-flex: 1 0 calc( 50% - 2rem );
-            -webkit-flex: 1 0 calc( 50% - 2rem );
-        flex: 1 0 calc( 50% - 2rem );
-        margin: 0 0 2rem 2rem;
-        max-width: calc( 50% - 2rem );
+            -ms-flex: 1 0 calc( 50% - 1rem );
+            -webkit-flex: 1 0 calc( 50% - 1rem );
+        flex: 1 0 calc( 50% - 1rem );
+        margin: 0 0 2rem 1rem;
+        max-width: calc( 50% - 1rem );
         padding-top: 8rem;
     }
 
@@ -1352,11 +1363,11 @@ body .site-navigation .twitter-link a {
     }
 
     .wcorg-speaker h2 {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
 
     .wcorg-speaker h3 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     
