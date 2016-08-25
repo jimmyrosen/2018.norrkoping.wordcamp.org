@@ -99,7 +99,7 @@ body .widget {
         display: -ms-flexbox;
     display: flex;
     max-width: 90%;
-    margin: 0 auto 10rem auto;
+    margin: 0 auto 8rem auto;
     padding: 2.3rem 0 2.3rem 0;
     position: relative;
     width: 124rem;
