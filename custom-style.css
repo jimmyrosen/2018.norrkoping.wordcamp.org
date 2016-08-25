@@ -523,8 +523,12 @@ body .wcpt_widget_speakers {
 .home #content {
     background: rgba( 34, 34, 34, 1 );
     color: rgba( 255, 255, 255, 1 );
-    padding: 8rem 6rem 8rem calc( 50% + 6rem );
+    padding: 8rem 6rem 8rem 50%;
     position: relative;
+}
+
+.home #content article:not(:first-child) {
+    margin-left: 6rem;
 }
 
 .home article .entry-content,
@@ -1365,6 +1369,10 @@ body .site-navigation .twitter-link a {
             right: auto;
             top: auto;
         width: 100vw;
+    }
+    
+    .home article:not(:first-child) {
+        margin-left: 0;
     }
     
     /* SPONSORS */
