@@ -1667,6 +1667,10 @@ body .site-navigation .twitter-link a {
         margin-top: 3rem;
     }
     
+    body .wcb_widget_sponsors .sponsor-logo { width: calc( 50% - 2rem ); }
+    body .wcb_widget_sponsors .silver .sponsor-logo { width: calc( 33.33% - 2rem ); }
+    body .wcb_widget_sponsors .bronze .sponsor-logo { width: calc( 25% - 2rem ); }
+    
     /* SINGLE */
     
     body:not(.home) #primary .entry-header {
