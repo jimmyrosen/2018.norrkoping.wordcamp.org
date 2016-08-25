@@ -1118,6 +1118,7 @@ li.comment li.comment { margin: 4rem 0 0 3rem; }
     display: flex;
         -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin: 6rem 0 6rem 0;
     position: relative;
         left: calc( 50% - 45vw - 3rem );
     width: calc( 90vw + 3rem );
@@ -1128,6 +1129,7 @@ li.comment li.comment { margin: 4rem 0 0 3rem; }
         -webkit-flex: 1 0 calc( 25% - 3rem );
     flex: 1 0 calc( 25% - 3rem );
     margin: 0 0 3rem 3rem;
+    max-width: calc( 25% - 3rem );
     padding-top: 8rem;
     position: relative;
     text-align: center;
@@ -1375,6 +1377,7 @@ body .site-navigation .twitter-link a {
             -ms-flex: 1 0 calc( 33.33% - 3rem );
             -webkit-flex: 1 0 calc( 33.33% - 3rem );
         flex: 1 0 calc( 33.33% - 3rem );
+        max-width: calc( 33.33% - 3rem );
     }
 
 }
@@ -1677,6 +1680,7 @@ body .site-navigation .twitter-link a {
     
     .wcorg-organizers {
         left: calc( 50% - 45vw - 2rem );
+        margin: 4rem 0 4rem 0;
         width: calc( 90vw + 2rem );
     }
     
@@ -1685,6 +1689,7 @@ body .site-navigation .twitter-link a {
             -webkit-flex: 1 0 calc( 50% - 2rem );
         flex: 1 0 calc( 50% - 2rem );
         margin: 0 0 2rem 2rem;
+        max-width: calc( 50% - 2rem );
     }
     
     /* FOOTER */
