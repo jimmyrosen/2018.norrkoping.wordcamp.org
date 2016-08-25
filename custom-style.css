@@ -474,7 +474,7 @@ body .wcpt_widget_speakers {
     display: flex;
         -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin: 6rem 0 6rem 0;
+    margin: 0 0 0 0;
     position: relative;
         left: calc( 50% - 45vw - 3rem );
     width: calc( 90vw + 3rem );
@@ -492,6 +492,8 @@ body .wcpt_widget_speakers {
 }
 
 .wcorg-speaker img {
+    border-radius: 999rem;
+    height: auto;
     position: absolute;
         top: 0;
         left: calc( 50% - 4rem );
@@ -506,10 +508,14 @@ body .wcpt_widget_speakers {
     margin: 0;
 }
 
-.wcorg-speaker h4 {
+.wcorg-speaker h3 {
     font-size: 2.4rem;
     font-weight: 400;
     margin: 0 0 0 0;
+}
+
+.wcorg-speaker p {
+    margin-top: 1rem;
 }
 
 
@@ -1348,7 +1354,7 @@ body .site-navigation .twitter-link a {
         font-size: 2.4rem;
     }
 
-    .wcorg-speaker h4 {
+    .wcorg-speaker h3 {
         font-size: 2rem;
     }
     
