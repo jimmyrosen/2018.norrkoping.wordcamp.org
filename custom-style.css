@@ -473,6 +473,7 @@ body .wcpt_widget_speakers {
         display: -webkit-box;
         display: -ms-flexbox;
     display: flex;
+        -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-left: -2rem;
 }
@@ -683,6 +684,7 @@ body .wcb_widget_sponsors {
         display: -webkit-box;
         display: -ms-flexbox;
     display: flex;
+        -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 2rem 0 0 31.5rem;
     position: relative;
@@ -1104,6 +1106,51 @@ li.comment li.comment { margin: 4rem 0 0 3rem; }
 .comment-respond label { display: block; }
 
 
+/* ORGANIZERS */
+
+
+.wcorg-organizers {
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+    align-items: flex-start;
+        display: -webkit-box;
+        display: -ms-flexbox;
+    display: flex;
+        -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+        left: calc( 50% - 45vw );
+    width: 90vw;
+}
+
+.wcorg-organizer {
+        -ms-flex: 1 0 calc( 25% - 3rem );
+        -webkit-flex: 1 0 calc( 25% - 3rem );
+    flex: 1 0 calc( 25% - 3rem );
+    margin-bottom: 2rem;
+    padding-left: 8rem;
+    position: relative;
+}
+
+.wcorg-organizer img {
+    border-radius: 99rem;
+    position: absolute;
+        left: 0;
+        top: calc( 50% - 3rem );
+    width: 6rem;
+}
+
+.wcorg-organizer h2 {
+    font-size: 2.4rem;
+    line-height: 1.1;
+    margin: 0 0 0 0;
+}
+
+.wcorg-organizer-description p {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
 
 
 /* FOOTER */
@@ -1320,7 +1367,14 @@ body .site-navigation .twitter-link a {
     body .wcb_widget_sponsors .sponsor-logo {
         margin: 0 2rem 2rem 0;
     }
-
+    
+    /* ORGANIZERS */
+    
+    .wcorg-organizer {
+            -ms-flex: 1 0 calc( 33.33% - 3rem );
+            -webkit-flex: 1 0 calc( 33.33% - 3rem );
+        flex: 1 0 calc( 33.33% - 3rem );
+    }
 
 }
 
@@ -1616,6 +1670,14 @@ body .site-navigation .twitter-link a {
     
     body:not(.home) #primary .entry-content > p:first-child > img:first-child {
         margin-bottom: 0;
+    }
+    
+    /* ORGANIZERS */
+    
+    .wcorg-organizer {
+            -ms-flex: 1 0 calc( 50% - 2rem );
+            -webkit-flex: 1 0 calc( 50% - 2rem );
+        flex: 1 0 calc( 50% - 2rem );
     }
     
     /* FOOTER */
