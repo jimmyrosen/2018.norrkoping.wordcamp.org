@@ -529,6 +529,7 @@ body .wcpt_widget_speakers {
 .home #content {
     background: rgba( 34, 34, 34, 1 );
     color: rgba( 255, 255, 255, 1 );
+    min-height: 50rem;
     padding: 8rem 6rem 8rem 50%;
     position: relative;
 }
@@ -1362,6 +1363,7 @@ body .site-navigation .twitter-link a {
     /* POSTS */
     
     .home #content {
+        min-height: none;
         padding: 0 5% 10% 5%;
     }
     
