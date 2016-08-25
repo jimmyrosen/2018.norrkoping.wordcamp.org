@@ -465,49 +465,40 @@ body .wcpt_widget_speakers {
     width: 124rem;
 }
 
-.speaker-gravatar-list {
-    display: none;
-}
-
-.speakers .grid_6 {
+.wcorg-speakers {
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+    align-items: flex-start;
         display: -webkit-box;
         display: -ms-flexbox;
     display: flex;
         -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-left: -2rem;
+    margin: 6rem 0 6rem 0;
+    position: relative;
+        left: calc( 50% - 45vw - 3rem );
+    width: calc( 90vw + 3rem );
 }
 
-.speakers .speaker {
-    width: calc( 25% - 2rem );
-    margin: 0 0 3rem 2rem;
+.wcorg-speaker {
+        -ms-flex: 1 0 calc( 25% - 3rem );
+        -webkit-flex: 1 0 calc( 25% - 3rem );
+    flex: 1 0 calc( 25% - 3rem );
+    margin: 0 0 3rem 3rem;
+    max-width: calc( 25% - 3rem );
+    padding-top: 10rem;
+    position: relative;
+    text-align: center;
 }
 
-.speaker .entry-title,
-.speaker .entry-content * {
-    display: none;
+.wcorg-speaker img {
+    position: absolute;
+        top: 0;
+        left: calc( 50% - 4rem );
+    width: 8rem;
 }
 
-.speaker .speaker-bio {
-    margin: 0 0 0 0;
-}
-
-.speaker .entry-content > p:first-of-type,
-.speaker .entry-content > p:first-of-type img,
-.speaker .entry-content h2,
-.speaker .entry-content h4 {
-    display: block;
-}
-
-.speaker .entry-content > p:first-of-type {
-    margin-bottom: 2rem;
-}
-
-.speaker .entry-content img {
-    width: 100%;
-}
-
-.speaker .entry-content h2 {
+.wcorg-speaker h2 {
     display: block;
     font-size: 2.8rem;
     font-weight: 700;
@@ -515,7 +506,7 @@ body .wcpt_widget_speakers {
     margin: 0;
 }
 
-.speaker .entry-content h4 {
+.wcorg-speaker h4 {
     font-size: 2.4rem;
     font-weight: 400;
     margin: 0 0 0 0;
@@ -1334,9 +1325,27 @@ body .site-navigation .twitter-link a {
     
     
     /* SPEAKERS */
-    
-    .speakers .speaker {
-        width: calc( 50% - 2rem );
+
+    .wcorg-speaker {
+            -ms-flex: 1 0 calc( 50% - 2rem );
+            -webkit-flex: 1 0 calc( 50% - 2rem );
+        flex: 1 0 calc( 50% - 2rem );
+        margin: 0 0 2rem 2rem;
+        max-width: calc( 50% - 2rem );
+        padding-top: 8rem;
+    }
+
+    .wcorg-speaker img {
+        left: calc( 50% - 3rem );
+        width: 6rem;
+    }
+
+    .wcorg-speaker h2 {
+        font-size: 2.4rem;
+    }
+
+    .wcorg-speaker h4 {
+        font-size: 2rem;
     }
     
     
