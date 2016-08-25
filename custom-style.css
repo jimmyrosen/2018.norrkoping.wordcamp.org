@@ -1389,7 +1389,7 @@ body .site-navigation .twitter-link a {
         width: 100vw;
     }
     
-    .home article:not(:first-child) {
+    .home #content article:not(:first-child) {
         margin-left: 0;
     }
     
