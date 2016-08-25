@@ -486,7 +486,7 @@ body .wcpt_widget_speakers {
     flex: 1 0 calc( 25% - 3rem );
     margin: 0 0 4rem 3rem;
     max-width: calc( 25% - 3rem );
-    padding-top: 9.5rem;
+    padding-top: 11.5rem;
     position: relative;
     text-align: center;
 }
@@ -496,8 +496,8 @@ body .wcpt_widget_speakers {
     height: auto;
     position: absolute;
         top: 0;
-        left: calc( 50% - 4rem );
-    width: 8rem;
+        left: calc( 50% - 5rem );
+    width: 10rem;
 }
 
 .wcorg-speaker h2 {
@@ -1342,24 +1342,23 @@ body .site-navigation .twitter-link a {
     /* SPEAKERS */
     
     .wcorg-speakers {
+        left: calc( 50% - 45vw - 1rem );
         margin: 0 0 -2rem -1rem;
-        position: relative;
-            left: calc( 50% - 45vw - 1rem );
         width: calc( 90vw + 1rem );
     }
 
     .wcorg-speaker {
-            -ms-flex: 1 0 calc( 50% - 1rem );
-            -webkit-flex: 1 0 calc( 50% - 1rem );
-        flex: 1 0 calc( 50% - 1rem );
+            -ms-flex: 1 0 calc( 33.33% - 1rem );
+            -webkit-flex: 1 0 calc( 33.33% - 1rem );
+        flex: 1 0 calc( 33.33% - 1rem );
         margin: 0 0 2rem 1rem;
-        max-width: calc( 50% - 1rem );
-        padding-top: 8rem;
+        max-width: calc( 33.33% - 1rem );
+        padding-top: 9.5rem;
     }
 
     .wcorg-speaker img {
-        left: calc( 50% - 3rem );
-        width: 6rem;
+        left: calc( 50% - 4rem );
+        width: 8rem;
     }
 
     .wcorg-speaker h2 {
@@ -1612,21 +1611,18 @@ body .site-navigation .twitter-link a {
     }
     
     /* SPEAKERS */
-    
-    .speakers .speaker {
-        margin-bottom: 2rem;
+
+    .wcorg-speaker {
+            -ms-flex: 1 0 calc( 50% - 1rem );
+            -webkit-flex: 1 0 calc( 50% - 1rem );
+        flex: 1 0 calc( 50% - 1rem );
+        max-width: calc( 50% - 1rem );
+        padding-top: 7.5rem;
     }
-    
-    .speaker .entry-content > p:first-of-type {
-        margin-bottom: 1rem;
-    }
-    
-    .speaker .entry-content h2 {
-        font-size: 2rem;
-    }
-    
-    .speaker .entry-content h4 {
-        font-size: 1.8rem;
+
+    .wcorg-speaker img {
+        left: calc( 50% - 3rem );
+        width: 6rem;
     }
     
     /* POSTS */
