@@ -1119,24 +1119,25 @@ li.comment li.comment { margin: 4rem 0 0 3rem; }
         -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     position: relative;
-        left: calc( 50% - 45vw );
-    width: 90vw;
+        left: calc( 50% - 45vw - 3rem );
+    width: calc( 90vw + 3rem );
 }
 
 .wcorg-organizer {
         -ms-flex: 1 0 calc( 25% - 3rem );
         -webkit-flex: 1 0 calc( 25% - 3rem );
     flex: 1 0 calc( 25% - 3rem );
-    margin-bottom: 2rem;
-    padding-left: 8rem;
+    margin: 0 0 3rem 3rem;
+    padding-top: 8rem;
     position: relative;
+    text-align: center;
 }
 
 .wcorg-organizer img {
     border-radius: 99rem;
     position: absolute;
-        left: 0;
-        top: calc( 50% - 3rem );
+        left: calc( 50% - 3rem );
+        top: 0;
     width: 6rem;
 }
 
@@ -1674,10 +1675,16 @@ body .site-navigation .twitter-link a {
     
     /* ORGANIZERS */
     
+    .wcorg-organizers {
+        left: calc( 50% - 45vw - 2rem );
+        width: calc( 90vw + 2rem );
+    }
+    
     .wcorg-organizer {
             -ms-flex: 1 0 calc( 50% - 2rem );
             -webkit-flex: 1 0 calc( 50% - 2rem );
         flex: 1 0 calc( 50% - 2rem );
+        margin: 0 0 2rem 2rem;
     }
     
     /* FOOTER */
