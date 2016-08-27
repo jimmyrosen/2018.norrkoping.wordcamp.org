@@ -1169,6 +1169,16 @@ li.comment li.comment { margin: 4rem 0 0 3rem; }
 }
 
 
+/* SCHEDULE */
+.wcpt-session-title {
+    font-weight: bold;
+}
+.wcpt-session-speakers {
+    display: block;
+}
+
+
+
 
 /* FOOTER */
 
@@ -1285,8 +1295,6 @@ body .site-navigation .twitter-link a {
         -o-transition:      all .4s ease-in-out;
      transition:             all .4s ease-in-out;
 }
-
-
 
 
 
