@@ -162,18 +162,18 @@ body:not(.home) .site-header:before {
     .home .site-navigation .menu {
         text-align: center;
     }
-    
+
     .site-navigation .menu > li {
         display: inline-block;
         float: none;
         padding: 1rem 0 1rem 0;
         position: relative;
     }
-    
+
     .site-navigation .menu > li.menu-item-has-children {
         padding-right: 2rem;
     }
-    
+
     .site-navigation .menu > li.menu-item-has-children:after {
         background: url( https://2016.stockholm.wordcamp.org/files/2016/08/children-arrow.png ) no-repeat center;
         background-size: auto 100%;
@@ -185,7 +185,7 @@ body:not(.home) .site-header:before {
             top: 2.3rem;
         width: 1rem;
     }
-    
+
     .home .site-navigation .menu > li.menu-item-has-children:after {
         background-image: url( https://2016.stockholm.wordcamp.org/files/2016/08/children-arrow-white.png );
     }
@@ -195,7 +195,7 @@ body:not(.home) .site-header:before {
         font-family: 'freight-sans-pro', Roboto, sans-serif;
         font-size: 2rem;
     }
-    
+
     .home .site-navigation .menu > li > a {
         color: rgba( 255, 255, 255, 1 );
         font-size: 1.8rem;
@@ -203,20 +203,20 @@ body:not(.home) .site-header:before {
         letter-spacing: .1rem;
         text-transform: uppercase;
     }
-    
+
     .header .site-navigation a:hover {
         color: rgba( 255, 255, 255, 1 );
         text-decoration: underline;
     }
-    
+
     .home .site-navigation .menu > li > a {
         text-shadow: 0 .1rem 0 rgba( 0, 0, 0, 0.1 );
     }
-    
+
     .site-navigation .menu > li + li {
         margin: 0 0 0 5rem;
     }
-    
+
     body .site-navigation ul ul {
         background: rgba( 17, 17, 17, 1 );
         border-radius: .3rem .3rem .3rem .3rem;
@@ -227,7 +227,7 @@ body:not(.home) .site-header:before {
             top: 100%;
         width: 20rem;
     }
-    
+
     body .site-navigation ul ul:before {
         border: 0.6rem solid transparent;
         border-bottom-color: rgba( 17, 17, 17, 1 );
@@ -236,9 +236,9 @@ body:not(.home) .site-header:before {
         position: absolute;
             left: calc( 50% - 0.6rem );
             bottom: calc( 100% );
-            
+
     }
-    
+
     body .site-navigation ul ul a {
         color: rgba( 255, 255, 255, 1 );
         display: block;
@@ -248,7 +248,7 @@ body:not(.home) .site-header:before {
         padding: 1rem 1.5rem 1rem 1.5rem;
         text-align: left;
     }
-    
+
     body .site-navigation .twitter-link {
         display: block;
         padding: 0 0 0 0;
@@ -256,7 +256,7 @@ body:not(.home) .site-header:before {
             right: 0;
             top: calc( 50% - 1.2rem );
     }
-    
+
     body .site-navigation .twitter-link a {
         background: url( https://2016.stockholm.wordcamp.org/files/2016/08/bird-black.png ) no-repeat center;
         background-size: auto 100%;
@@ -266,11 +266,11 @@ body:not(.home) .site-header:before {
         text-indent: -99999rem;
         width: 3.2rem;
     }
-    
+
     body .site-navigation .twitter-link a:hover {
         opacity: 1;
     }
-    
+
     body.home .site-navigation .twitter-link {
         display: none;
     }
@@ -632,7 +632,7 @@ body .wcpt_widget_speakers {
     font-weight: 500;
 }
 
-.home article:first-child .entry-content { 
+.home article:first-child .entry-content {
         display: -webkit-box;
         display: -ms-flexbox;
     display: flex;
@@ -654,14 +654,14 @@ body .wcpt_widget_speakers {
         left: 0;
         right: 0;
         top: 0;
-    
+
 }
 
-.home article:first-child .entry-content * { 
-    display: none; 
+.home article:first-child .entry-content * {
+    display: none;
 }
 
-.home article:first-child .entry-content > img:first-child { 
+.home article:first-child .entry-content > img:first-child {
     display: block;
     max-height: none;
     max-width: none;
@@ -752,7 +752,6 @@ body:not(.home) #primary {
     height: auto;
     margin: 0 auto 5rem auto;
     max-width: 100%;
-    width: 70rem;
 }
 
 body:not(.home) #primary .entry-header {
@@ -928,8 +927,8 @@ body:not(.home) #primary #content .post-navigation a:hover {
 	white-space: nowrap;
 }
 
-.entry-content th { 
-	font-weight: 700; 
+.entry-content th {
+	font-weight: 700;
 }
 
 tbody > tr:nth-child(even) { background-color: rgba( 246, 246, 246, 1 ); }
@@ -1022,7 +1021,7 @@ li.comment li.comment { margin: 4rem 0 0 3rem; }
     padding-left: 5rem;
 }
 
-.comment-meta { 
+.comment-meta {
     font-family: 'freight-sans-pro', Roboto, sans-serif;
     font-size: 1.6rem;
     margin: .2rem 0 2rem 0;
@@ -1107,8 +1106,8 @@ li.comment li.comment { margin: 4rem 0 0 3rem; }
 
 .post .comment-reply-title,
 .logged-in-as,
-.comment-notes { 
-    text-align: center; 
+.comment-notes {
+    text-align: center;
 }
 
 .logged-in-as { margin: -10px 0 30px; }
@@ -1302,7 +1301,7 @@ body .site-navigation .twitter-link a {
 
 
 @media ( max-width: 900px ) and ( min-width: 600px ) {
-    
+
     .site-navigation {
         padding-right: 0;
     }
@@ -1318,41 +1317,41 @@ body .site-navigation .twitter-link a {
 
 
     /* SITE HEADER */
-    
+
     .site-header h1.site-title a {
         height: 5rem;
         margin-right: 10rem;
         width: 13.8rem;
     }
-    
+
     /* NAVIGATION */
-    
+
     body .site-navigation .twitter-link {
         display: none;
     }
-    
+
     /* HOME */
-    
+
     /* INTRO */
-    
+
     .intro p:first-child {
         font-size: 3.2rem;
     }
-    
+
     /* SHORTCUTS */
-    
+
     body a.shortcut {
         height: 25rem;
         margin: 0 0 0 0;
         width: 100%;
     }
-    
+
     body a.shortcut:first-child { margin-top: -4rem; }
     body a.shortcut:last-child { margin-bottom: -4rem; }
-    
-    
+
+
     /* SPEAKERS */
-    
+
     .wcorg-speakers {
         left: calc( 50% - 45vw - 1rem );
         margin: 0 0 -2rem -1rem;
@@ -1380,15 +1379,15 @@ body .site-navigation .twitter-link a {
     .wcorg-speaker h3 {
         font-size: 1.8rem;
     }
-    
-    
+
+
     /* POSTS */
-    
+
     .home #content {
         min-height: none;
         padding: 0 5% 10% 5%;
     }
-    
+
     .home article:first-child {
         height: 40rem;
         margin-bottom: 10%;
@@ -1400,30 +1399,30 @@ body .site-navigation .twitter-link a {
             top: auto;
         width: 100vw;
     }
-    
+
     .home #content article:not(:first-child) {
         margin-left: 0;
     }
-    
+
     /* SPONSORS */
-    
+
     .sponsor-level {
         padding-left: 0;
     }
-    
+
     .sponsor-level-title {
         font-size: 2.4rem;
         margin-bottom: 1.5rem;
         position: static;
         width: 100%;
     }
-    
+
     body .wcb_widget_sponsors .sponsor-logo {
         margin: 0 2rem 2rem 0;
     }
-    
+
     /* ORGANIZERS */
-    
+
     .wcorg-organizer {
             -ms-flex: 1 0 calc( 33.33% - 3rem );
             -webkit-flex: 1 0 calc( 33.33% - 3rem );
@@ -1441,44 +1440,44 @@ body .site-navigation .twitter-link a {
 
 
     /* TYPOGRAPHY */
-    
+
     body h2 {
         font-size: 2.8rem;
     }
-    
+
     body h3 {
         font-size: 2.8rem;
     }
-    
+
     .subtitle {
         font-size: 2.2rem;
     }
-    
+
     .smallcaps {
         font-size: 1.4rem;
         letter-spacing: .1rem;
     }
-    
+
     .smallcaps.seperated:after {
         margin: 1rem auto 0.9rem auto;
         width: 4rem;
     }
 
     /* SITE HEADER */
-    
+
     .site-header {
         margin-bottom: 3rem;
         padding: 1.2rem 0 1.2rem 0;
     }
-    
+
     .site-header hgroup {
         width: 100%;
     }
-    
+
     .site-header h1.site-title {
         text-align: center;
     }
-    
+
     .site-header h1.site-title a {
         display: inline-block;
         height: 4rem;
@@ -1539,7 +1538,7 @@ body .site-navigation .twitter-link a {
     header nav.site-navigation ul,
     header nav.site-navigation li {
         display: block;
-        list-style: none; 
+        list-style: none;
         margin: 0 0 0 0;
         position: static;
         width: 100%;
@@ -1575,53 +1574,53 @@ body .site-navigation .twitter-link a {
         font-size: 2.8rem;
         width: 100%;
     }
-    
+
     /* HOME */
-    
+
     .home section {
         padding: 4rem 0 4rem 0;
     }
-    
+
     /* HERO */
-    
+
     .hero {
         min-height: none;
     }
-    
+
     .hero img {
         height: 10rem;
         margin-bottom: 1rem;
     }
-    
+
     .hero h1 {
         font-size: 4rem;
         margin-bottom: 1rem;
     }
-    
-    .hero .intro-arrow { 
+
+    .hero .intro-arrow {
         background-size: 2.4rem auto;
-        bottom: 4rem; 
+        bottom: 4rem;
     }
-    
+
     .hero .intro-arrow:hover { bottom: 3.7rem; }
-    
+
     /* INTRO */
-    
+
     .intro p:first-child {
         font-size: 2.8rem;
         margin-bottom: 2rem;
     }
-    
+
     /* SHORTCUTS */
-    
+
     section.shortcuts {
         margin: 0 0 0 0;
     }
-    
+
     .shortcuts .inner {
         max-width: 100%;
     }
-    
+
     /* SPEAKERS */
 
     .wcorg-speaker {
@@ -1636,29 +1635,29 @@ body .site-navigation .twitter-link a {
         left: calc( 50% - 3rem );
         width: 6rem;
     }
-    
+
     /* POSTS */
-    
+
     .home .site-content {
         padding-top: 2rem;
     }
-    
+
     .home article:first-child {
         height: 25rem;
     }
-    
+
     .home article:first-child .entry-title {
         font-size: 3.2rem;
     }
-    
+
     .home article:first-child .entry-meta {
         font-size: 1.4rem;
     }
-    
+
     .home article:not(:first-child) header {
         padding: 0 0 0 0;
     }
-    
+
     .home article:not(:first-child) header .entry-meta {
         margin-top: 0.3rem;
         position: relative;
@@ -1666,48 +1665,48 @@ body .site-navigation .twitter-link a {
             top: auto;
         width: 100%;
     }
-    
+
     /* SPONSORS */
-    
+
     .sponsor-level {
         padding-top: 1.2rem;
     }
-    
+
     .sponsor-level + .sponsor-level {
         margin-top: 3rem;
     }
-    
+
     body .wcb_widget_sponsors .sponsor-logo { width: calc( 50% - 2rem ); }
     body .wcb_widget_sponsors .silver .sponsor-logo { width: calc( 33.33% - 2rem ); }
     body .wcb_widget_sponsors .bronze .sponsor-logo { width: calc( 25% - 2rem ); }
-    
+
     /* SINGLE */
-    
+
     body:not(.home) #primary .entry-header {
         margin-bottom: 3rem;
     }
-    
+
     body:not(.home) #primary .entry-header h1 {
         font-size: 3.2rem;
     }
-    
+
     body:not(.home) #primary .entry-header .entry-meta {
         font-size: 1.6rem;
         margin-top: 0.5rem;
     }
-    
+
     body:not(.home) #primary #content .post-navigation a {
         font-size: 1.6rem;
     }
-    
+
     .entry-content {
         font-size: 1.7rem;
     }
-    
+
     .entry-content p {
         margin-bottom: 1.5rem;
     }
-    
+
     .entry-content h1,
     .entry-content h2,
     .entry-content h3,
@@ -1716,26 +1715,26 @@ body .site-navigation .twitter-link a {
     .entry-content h6 {
         margin: 3rem 0 1rem 0;
     }
-    
+
     .entry-content h1 { font-size: 3.2rem; }
     .entry-content h2 { font-size: 2.8rem; }
     .entry-content h3 { font-size: 2.4rem; }
     .entry-content h4 { font-size: 2.2rem; }
     .entry-content h5 { font-size: 2rem; }
     .entry-content h6 { font-size: 1.8rem; }
-    
+
     body:not(.home) #primary .entry-content > p:first-child > img:first-child {
         margin-bottom: 0;
     }
-    
+
     /* ORGANIZERS */
-    
+
     .wcorg-organizers {
         left: calc( 50% - 45vw - 2rem );
         margin: 4rem 0 4rem 0;
         width: calc( 90vw + 2rem );
     }
-    
+
     .wcorg-organizer {
             -ms-flex: 1 0 calc( 50% - 2rem );
             -webkit-flex: 1 0 calc( 50% - 2rem );
@@ -1743,33 +1742,33 @@ body .site-navigation .twitter-link a {
         margin: 0 0 2rem 2rem;
         max-width: calc( 50% - 2rem );
     }
-    
+
     .entry-content .wcorg-organizer h2 {
         font-size: 2rem;
     }
-    
+
     /* FOOTER */
-    
+
     .site-footer {
         margin-top: 8rem;
     }
-    
+
     body a.footer-block {
         height: 22rem;
         margin-top: -4rem;
         width: 100%;
     }
-    
+
     body a.footer-block + a.footer-block {
         margin-top: 0;
     }
-    
+
     /* CREDITS */
-    
+
     .site-info {
         padding: 2.2rem 0 2.2rem 0;
     }
-    
+
     .site-info .site-info-generator {
         font-size: 1.4rem;
     }
