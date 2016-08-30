@@ -739,6 +739,8 @@ body .wcb_widget_sponsors .bronze .sponsor-logo { width: calc( 20% - 2rem ); }
 }
 
 .single-wcb_sponsor #content > .attachment-post-thumbnail {
+  display: block;
+  margin: 0 auto 3rem auto;
   max-height: 250px;
   width: auto;
 }
