@@ -738,6 +738,11 @@ body .wcb_widget_sponsors .bronze .sponsor-logo { width: calc( 20% - 2rem ); }
     width: auto;
 }
 
+.single-wcb_sponsor #content > .attachment-post-thumbnail {
+  max-height: 250px;
+  width: auto;
+}
+
 
 /* SINGLE */
 
