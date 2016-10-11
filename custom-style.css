@@ -698,7 +698,7 @@ body .wcb_widget_sponsors {
     display: flex;
         -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding: 2rem 0 0 31.5rem;
+    padding: 2rem 0 0 23.5rem;
     position: relative;
 }
 
@@ -712,6 +712,7 @@ body .wcb_widget_sponsors {
 .gold .sponsor-level-title { color: rgba( 219, 180, 41, 1 ); }
 .silver .sponsor-level-title { color: rgba( 166, 158, 158, 1 ); }
 .bronze .sponsor-level-title { color: rgba( 205, 127, 50, 1 ); }
+.microsponsor .sponsor-level-title { color: rgba(135, 135, 135, 1 ); }
 
 .sponsor-level + .sponsor-level {
     margin-top: 6rem;
@@ -727,13 +728,14 @@ body .wcb_widget_sponsors .sponsor-logo {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
     justify-content: center;
-    margin: 0 0 2rem 2rem;
+    margin: 0 0 2rem 4rem;
     max-height: 18rem;
-    width: calc( 33.33% - 2rem );
+    width: calc( 50% - 4rem );
 }
 
-body .wcb_widget_sponsors .silver .sponsor-logo { width: calc( 25% - 2rem ); }
-body .wcb_widget_sponsors .bronze .sponsor-logo { width: calc( 20% - 2rem ); }
+body .wcb_widget_sponsors .silver .sponsor-logo { width: calc( 33% - 4rem ); }
+body .wcb_widget_sponsors .bronze .sponsor-logo { width: calc( 25% - 4rem ); }
+body .wcb_widget_sponsors .microsponsor .sponsor-logo { width: calc( 15% - 4rem ); }
 
 .wcb_widget_sponsors .sponsor-logo img {
     max-height: 100%;
