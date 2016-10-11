@@ -663,6 +663,7 @@ body .wcpt_widget_speakers {
 
 .home article:first-child .entry-content > img:first-child { 
     display: block;
+    margin: 0 0 0 0;
     max-height: none;
     max-width: none;
     object-fit: cover;
