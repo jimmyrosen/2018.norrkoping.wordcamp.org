@@ -654,7 +654,6 @@ body .wcpt_widget_speakers {
         left: 0;
         right: 0;
         top: 0;
-
 }
 
 .home article:first-child .entry-content * {
@@ -665,6 +664,7 @@ body .wcpt_widget_speakers {
 .home article:first-child .entry-content > div:first-child,
 .home article:first-child .entry-content > div:first-child > img:first-child {
     display: block;
+    height: 100%;
     margin: 0 0 0 0;
     max-height: none;
     max-width: none;
