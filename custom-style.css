@@ -661,7 +661,9 @@ body .wcpt_widget_speakers {
     display: none;
 }
 
-.home article:first-child .entry-content > img:first-child {
+.home article:first-child .entry-content > img:first-child,
+.home article:first-child .entry-content > div:first-child,
+.home article:first-child .entry-content > div:first-child > img:first-child {
     display: block;
     margin: 0 0 0 0;
     max-height: none;
