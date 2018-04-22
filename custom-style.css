@@ -395,6 +395,11 @@ aside.jetpack_subscription_widget {
 
 aside.jetpack_subscription_widget h1 {
 	text-align: center;
+	font-family: 'freight-sans-pro', 'Roboto', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 600;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
 }
 
 aside.jetpack_subscription_widget p#subscribe-email {
