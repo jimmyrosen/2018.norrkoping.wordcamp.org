@@ -409,6 +409,8 @@ aside.jetpack_subscription_widget .subscribe-text #subscribe-email input {
 
 aside.jetpack_subscription_widget .subscribe-email input[type="submit"] {
      width: 20%;
+     background: white;
+     padding: 12px 0px;	
 }
 
 	
