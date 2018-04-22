@@ -384,6 +384,23 @@ body:not(.home) .site-header:before {
 }
 
 
+/* SUBSCRIPTION */
+
+.jetpack_subscription_widget {
+    margin: 0 auto;
+    max-width: 90%;
+    width: 124rem;
+}
+.jetpack_subscription_widget h1 {
+	text-align: center;
+}
+.jetpack_subscription_widget .subscribe-text {
+}
+
+.jetpack_subscription_widget .subscribe-email {
+}
+
+	
 /* SHORTCUTS */
 
 
