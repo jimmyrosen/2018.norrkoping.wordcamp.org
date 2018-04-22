@@ -390,14 +390,25 @@ aside.jetpack_subscription_widget {
     margin: 0 auto;
     max-width: 90%;
     width: 124rem;
+    margin-botom: 12rem;
 }
+
 aside.jetpack_subscription_widget h1 {
 	text-align: center;
 }
-aside.jetpack_subscription_widget .subscribe-text {
+
+aside.jetpack_subscription_widget p#subscribe-email {
+	float: left;
+	width: 80%;
 }
 
-aside.jetpack_subscription_widget .subscribe-email {
+aside.jetpack_subscription_widget .subscribe-text #subscribe-email input {
+	width: 99%;
+}
+
+
+aside.jetpack_subscription_widget .subscribe-email input[type="submit"] {
+     width: 20%;
 }
 
 	
