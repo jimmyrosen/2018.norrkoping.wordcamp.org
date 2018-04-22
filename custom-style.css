@@ -400,6 +400,7 @@ aside.jetpack_subscription_widget h1 {
 	font-weight: 600;
 	letter-spacing: .2rem;
 	text-transform: uppercase;
+	margin-bottom: 2rem;
 }
 
 aside.jetpack_subscription_widget p#subscribe-email {
