@@ -214,7 +214,7 @@ body:not(.home) .site-header:before {
     }
 
     .site-navigation .menu > li + li {
-        margin: 0 0 0 5rem;
+        margin: 0 0 0 3rem;
     }
 
     body .site-navigation ul ul {
